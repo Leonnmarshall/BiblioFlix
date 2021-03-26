@@ -1,0 +1,14 @@
+var listaLivros = ["https://th.bing.com/th/id/R73b8cf50c4616739605f26b2106041b3?rik=pkVot%2bPI7ihxEQ&riu=http%3a%2f%2fwww.editora.ufpb.br%2fsistema%2fpress5%2findex.php%2fUFPB%2f%24%24%24call%24%24%24%2fsubmission%2fcover%2fthumbnail%3fsubmissionId%3d359%26random%3d3595f5bd9ec3cf68&ehk=XS2r8UuxJMCe%2bMJT1nlNAuL5Z%2bfzIdyFmq9m%2bwP%2bXT4%3d&risl=&pid=ImgRaw", "https://th.bing.com/th/id/R67ae706c0c556b5c27d51f2cd733a0ab?rik=0AyJOq3%2fZNyJhw&riu=http%3a%2f%2fwww.editora.ufpb.br%2fsistema%2fpress5%2findex.php%2fUFPB%2f%24%24%24call%24%24%24%2fsubmission%2fcover%2fthumbnail%3fsubmissionId%3d242%26random%3d2425f6b76d61414a&ehk=Jwzj56OS8d2FD525isfduZ5petEOxMRbTkUwSk6Jq1c%3d&risl=&pid=ImgRaw" ,"https://th.bing.com/th/id/Rccdef946abbdeeb3cd0cc5c654dc08ff?rik=YzKahrWOUeJaNA&riu=http%3a%2f%2fwww.editora.ufpb.br%2fsistema%2fpress5%2findex.php%2fUFPB%2f%24%24%24call%24%24%24%2fsubmission%2fcover%2fthumbnail%3fsubmissionId%3d255%26random%3d2555f84cffe9c992&ehk=FqfbkKHzENTOpc28mXtYOI8N7saeftp7lMeACg3mMFI%3d&risl=&pid=ImgRaw", "https://th.bing.com/th/id/OIP.o6f1ZMeNuD6nz9I5TkJCTQHaJl?pid=ImgDet&rs=1","https://th.bing.com/th/id/OIP.vFgMT8MSLG0TM8b5783QPwAAAA?pid=ImgDet&rs=1","https://th.bing.com/th/id/OIP.up4xAzzL12q2H2vYoxv71QHaKd?pid=ImgDet&rs=1"];
+
+var livros = ["https://drive.google.com/file/d/1DtaYgXv0U1JWsRFGkZcoK5Q9DTl59owg/view?usp=sharing" ,"https://drive.google.com/file/d/1DgFXLuiaAIgME5OtAv9jz3ZuHWLywyYw/view?usp=sharing", "https://drive.google.com/file/d/1Diw4XzGRMQ0yoT0UvZUd0BlEozk_LI5w/view?usp=sharing" ,"https://drive.google.com/file/d/1DWJbHOVlzaGnyNCrqIJMapEOna2Mua4g/view?usp=sharing","https://drive.google.com/file/d/1u4O43o1-UncYRgJK5VI_HRNJZvEZJThm/view?usp=sharing","https://livroaberto.ibict.br/bitstream/1/434/1/Livro%20Verde.pdf"];
+
+var nomeLivros = ["Dados Ciencíficos", "Intro. à ciência da Informação", "Bibliotecas Digitais", "Org. e repres. da info.","Livro Verde", "Soc. Inf. no Brasil"]
+
+for(var i = 0; i < listaLivros.length; i++){
+  var $wrapper = document.querySelector('.nomeLivros'),
+
+    HTMLNovo = "<div><a href=" + livros[i] + "class=nomeLivros target=_blank>" +"<img class=grid-5 src=" + listaLivros[i] +"><p class=titulo>" + nomeLivros[i] + "</p></div>";
+ 
+  $wrapper.insertAdjacentHTML('beforeend', HTMLNovo);
+  
+}

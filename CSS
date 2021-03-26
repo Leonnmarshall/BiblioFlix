@@ -1,0 +1,106 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  text-align:center;
+  background-image: url('https://www.adventistreview.org/assets/public/news/2017-12/adventist-university-in-france-issues-new-theological-journal.jpg');
+  background-color: #red;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+strong {
+    color: #000000;
+    background-color: #FF0000;    
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.git-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+  background-color: #FFFFFF
+}
+.indica{
+  color: #ffffff;
+  background-color: #000000;  
+}
+
+body > img {
+  margin: 0 10px;
+}
+h6 {
+    color:white;
+    font-size:20px;
+    margin-top: -100px;
+    align-items:left;
+}
+
+.grid-5 {
+    padding: 30px 20px 100px 30px;
+    background: black;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+    color: rgb(85, 84, 84);
+    width: 300px;
+    transition: 1s all;
+    cursor: pointer;
+}
+ 
+.grid-5:hover {
+    transform: scale(1.5);
+}
+
+.titulo {
+    font-size: 20px;
+    color: white;
+    z-index: 999;
+    margin-top: -80px;
+    margin-bottom: 50px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.titulo:hover {
+    transform: scale(1.0);
+}
+
+.subTitulo{
+  font-style: italic;
+  font-size: 30px;
+  background:red;
+  padding: 10px;
+  width: 20%;
+  margin-top: 10px 5px 15px 20px
+}
+.nomeLivros div{
+    display: inline-block;
+}
+
+.nomeLivros a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 25px;
+    color: #ffffff;
+}
